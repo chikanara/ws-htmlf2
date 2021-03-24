@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WS-HTML</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img
+          src="https://gomycodewebsite.blob.core.windows.net/website/img/black_Logo_342868e838_129748d4cd.svg"
+          alt="logo"
+        />
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Home</h1>
+        <p>
+          Nous formons la prochaine génération tech aux technologies les plus
+          récentes et aux métiers du futur pour les préparer au monde
+          professionnel et renforcer leur employabilité.
+        </p>
+        <img src="/res/stoff.jpg" width="500" height="300" alt="staff" />
+      </section>
+      <section id="about">
+        <h1>About</h1>
+        <p>
+          La méthode GOMYCODE remplace désormais le système éducatif classique,
+          hautement théorique et non motivant. Notre modèle d'apprentissage est
+          basé sur des projets et des exercices fournissant à l'étudiant des
+          connaissances et des compétences à long terme.
+        </p>
+        <!-- <video controls src="/res/Our Students ROCK - Aymen Derouiche.mp4"></video> -->
+        <video controls width="500" height="300">
+          <source
+            src="/res/Our Students ROCK - Aymen Derouiche.mp4"
+            type="video/mp4"
+          />
+          <source+
+            src="/res/Our Students ROCK - Aymen Derouiche.ogg"
+            type="video/ogg"
+          />
+          Your bowser dosen't support this video
+        </video>
+        <iframe
+          width="706"
+          height="397"
+          src="https://www.youtube.com/embed/2WL6m4i7PXU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <form>
+          Name:
+          <input type="text" placeholder="Enter your name" />
+          Email:
+          <input type="email" placeholder="Enter your email" />
+          Profession :
+          <select>
+            <option value="Student">Student</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Instructor">Instructor</option>
+          </select>
+          <button>Send</button>
+        </form>
+        <mark
+          >Address : GoMyCode Hackerspace, Immeuble NEO, 2ème étage, Rue du lac
+          lochness, Les Berges du Lac1</mark
+        >
+        <mark>Email : hello@gomycode.com</mark>
+
+        <ol>
+          Hackerspaces :
+          <li>Sfax</li>
+          <li>Menzah</li>
+          <li>Lac</li>
+          <li>Sousse</li>
+          <li>Nabeul</li>
+        </ol>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
